@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: MediumSeaGreen;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: MediumSeaGreen;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<h2>Austin City Data Portal</h2>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="report.html">Report a dataset</a>
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="dog.html">City Dog Database</a>
+      <a href="cat.html">City Cat Database</a>
+      <a href="lawnmower.html">Historical Lawnmower Data For The City of Austin</a>
+      <a href="potato1.html">Potato Cannon Contest Archive 1974-1988</a>
+      <a href="potato2.html">Potato Cannon Contest Archive 1989-1997</a>
+      <a href="potato3.html">Potato Cannon Contest Archive 1997-2004</a>
+      <a href="potato4.html">Potato Cannon Contest Archive 2004-205</a>
+      <a href="crime1.html">Neighborhood Crime Reports 1954</a>
+      <a href="crime2.html">Neighborhood Crime Reports 1967</a>
+      <a href="crime3.html">Neighborhood Crime Reports 1971</a>
+      <a href="misc.html">Misc</a>
+      <a href="weather.html">Weather Log</a>
+      <a href="tax.html">Public Tax Information</a>
+      <a href="err404.html">2019 Gentrification Report</a>
+      <a href="reboot.html">Transparency in Austin</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 1</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 2</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 3</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 4</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 5</a>
+      <a href="err404.html">FOIA Request Form 1-A.2b Part 6</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Data Partners<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.google.com/publicdata/directory">Google</a>
+      <a href="https://www.nytimes.com/2019/03/13/technology/facebook-data-deals-investigation.html">Facebook</a>
+      <a href="sixth.html">6th Street Data Utilities</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">UT Freshmen CS Data Class</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://austintexas.gov/business/doing-business-city">City of Austin</a>
+      <a href="http://austintexas.gov/department/boards-and-commissions">Austin Regulatory Board</a>
+      <a href="https://kids.house.texas.gov/">Texas State Legislature</a>
+    </div>
+  </div> 
+  <a href="contact.html">Contact</a>
+</div>
+
+<div style="padding:0 16px">
+	<h1>Potato Conspiracy</h1>
+    <p>In 1976 the chamber of commerce successfully lured in top tech companies for Austin</p>
+</div>
+
+</body>
+</html>
